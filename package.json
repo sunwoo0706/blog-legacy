@@ -1,0 +1,68 @@
+{
+  "name": "gatsby-starter-aestura",
+  "private": true,
+  "description": "A simple ui gatsby blog starter template",
+  "version": "0.1.0",
+  "author": "sunwoo[SunWooLee] <sunwoo0706@icloud.com>",
+  "bugs": {
+    "url": "https://github.com/sunwoo0706/Gatsby_Starter_Aestura/issues"
+  },
+  "homepage": "https://github.com/sunwoo0706/Gatsby_Starter_Aestura#readme",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@types/react-helmet": "^6.1.5",
+    "gatsby": "^4.5.3",
+    "gatsby-plugin-canonical-urls": "^4.5.0",
+    "gatsby-plugin-emotion": "^7.5.0",
+    "gatsby-plugin-image": "^2.5.2",
+    "gatsby-plugin-offline": "^5.5.2",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-sharp": "^4.5.2",
+    "gatsby-plugin-sitemap": "^5.5.0",
+    "gatsby-plugin-typescript": "^4.5.2",
+    "gatsby-remark-copy-linked-files": "^5.5.0",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^6.5.2",
+    "gatsby-remark-prismjs": "^6.5.0",
+    "gatsby-remark-smartypants": "^5.5.0",
+    "gatsby-source-filesystem": "^4.5.2",
+    "gatsby-transformer-remark": "^5.5.2",
+    "prismjs": "^1.26.0",
+    "prop-types": "^15.8.0",
+    "query-string": "^7.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunwoo0706/Gatsby_Starter_Aestura.git"
+  },
+  "packageManager": "yarn@3.1.1"
+}
