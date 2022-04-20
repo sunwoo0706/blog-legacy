@@ -1,5 +1,5 @@
 ---
-date: '2004-07-06'
+date: '2022-04-18'
 title: 'Javascript의 Month은 왜 0부터 시작할까?'
 categories: ['Javascript', 'getMonth']
 summary: 'Javascript getMonth를 사용하면 Date 객체의 월 값을 현지 시간에 맞춰 반환한다. 그리고 인덱스가 1씩 밀려있다. 이유가 무엇인지 알아보자'
