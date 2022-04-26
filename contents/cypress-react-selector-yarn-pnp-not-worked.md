@@ -23,15 +23,15 @@ The following error occurred:
 
 ## 해결 방법
 
-`2.3.15` 이하 버전의 `cypress-react-selector`를 사용한다면, 다음과 같은 커맨드로 `resq` 패키지를 언플러그 시켜주면 된다.
+`2.3.15` 이하 버전의 `cypress-react-selector`를 사용한다면, 다음과 같은 커맨드로 `resq` 패키지를 언플러그 시켜주면 된다. ( `yarn add -D resq` 로 패키지를 다운로드 받아야 할 수도 있다. )
 
 ```
 yarn unplug resq
 ```
 
-`2.3.15` 이상 버전의 `cypress-react-selector`를 사용하고 있다면, `yarn unplug resq` 를 사용해도 작동하지 않는다고 한다.
+`2.3.15` 이상 버전의 `cypress-react-selector`를 사용하고 있다면, 추가 설정이 필요하다.
 
-다행히도 다음 코드를 이용하여 패키지를 찾고 `cy.waitForReact()` 에 이름을 지정할 수 있습니다.
+다행히도 다음 코드를 이용하여 패키지를 찾고 `cy.waitForReact()` 에 이름을 지정할 수 있다.
 
 ```js
 // cypress/plugins/index.js
